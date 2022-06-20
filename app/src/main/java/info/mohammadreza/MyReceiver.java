@@ -16,6 +16,7 @@ public class MyReceiver extends BroadcastReceiver {
             Toast.makeText(context, "You are not connect.", Toast.LENGTH_SHORT).show();
         }
 
+        Toast.makeText(context, "We received a message.", Toast.LENGTH_LONG).show();
     }
 
     private boolean checkNetWork(Context context) {
